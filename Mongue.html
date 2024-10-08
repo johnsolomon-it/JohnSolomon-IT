@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Button Click Counter</title>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <button id="clickButton" style="color: white; background-color: aqua;">Click me!</button>
+        <p>Click count: <span id="clickCount">0</span></p>
+
+        <script>
+            let clickCount = 0;
+
+            $("#clickButton").click(function() {
+            clickCount++;
+            $("#clickCount").text(clickCount);
+
+            // Log to the console
+            console.log(I was clicked and has a random number\n i was clicked ${clickCount} times);
+
+            // Show an alert
+            alert(Button clicked ${clickCount} times);
+            });
+        </script>
+    </body>
+</html>

@@ -1,0 +1,163 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-brand {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+    background-color: black;
+    width: 100%;
+    height: 100px;
+}
+
+.ul-navbar {
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.li-navbar {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #212429;
+    list-style-type: none;
+    padding: 20px;
+    margin: 5px;
+    color: white;
+}
+
+.li-navbar:hover {
+    background-color: gold;
+}
+
+.a-navbar {
+    color: white;
+    text-decoration: none;
+}
+
+.title {
+    list-style-type: none;
+    padding: 20px;
+    margin: 10px;
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.img-fluid {
+    list-style-type: none;
+    padding: 10px;
+    margin: 20px;
+    color:black;
+    -ms-flex-item-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.carousel-caption {
+list-style-type: none;
+padding: 20px;
+margin: 10px;
+color:black;
+font-family: 'Times New Roman', Times, serif;
+lighting-color: black;
+}
+
+.menu {
+    background-color: black;
+    width: 100%;
+    height: 100px;
+}
+
+.kelas {
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.sejarah {
+    border: 1px solid gold;
+    background-color: black;
+    list-style-type: none;
+    padding: 50px;
+    margin: 50px;
+    color:azure;
+}
+
+.hero {
+    background: url('1920px-History-Dielman-Highsmith.jpeg') no-repeat center center/cover;
+    height: 400px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.container2 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.explorate {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.article-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.article-item {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.2s;
+}
+.article-item:hover {
+    transform: scale(1.05);
+}
+
+.text-center {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.carousel-inner{
+    // height: 25%;
+}
+
+.hero2 {
+    background: url('WhatsApp\ Image\ 2024-10-06\ at\ 22.26.33_d216364b.jpg') no-repeat center center/cover;
+    height: 400px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.hero3 {
+    background: url('Ancientlibraryalex.jpg') no-repeat center center/cover;
+    height: 400px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>National Geographic</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        header {
+            background-color: #004b87;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            color: #fff;
+            text-decoration: none;
+        }
+        .hero {
+            background: url('Nikolaos_Gyzis_-_Historia.jpg') no-repeat center center/cover;
+            height: 400px;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .article-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .article-item {
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 10px;
+            width: 300px;
+            text-align: center;
+            transition: transform 0.2s;
+        }
+        .article-item:hover {
+            transform: scale(1.05);
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #004b87;
+            color: #fff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>National Geographic</h1>
+    <nav>
+        <a href="#explore">Jelajahi</a>
+        <a href="#articles">Artikel</a>
+        <a href="#photography">Fotografi</a>
+        <a href="#about">Tentang Kami</a>
+    </nav>
+</header>
+
+<div class="hero">
+    <h1>Selamat Datang di National Geographic</h1>
+</div>
+
+<div class="container">
+    <section id="explore">
+        <h2>Jelajahi Dunia</h2>
+        <p>Temukan keajaiban dunia dan penemuan baru setiap hari.</p>
+    </section>
+
+    <section id="articles">
+        <h2>Artikel Terbaru</h2>
+        <div class="article-list">
+            <div class="article-item">
+                <h3>Artikel 1</h3>
+                <p>Deskripsi singkat artikel 1.</p>
+            </div>
+            <div class="article-item">
+                <h3>Artikel 2</h3>
+                <p>Deskripsi singkat artikel 2.</p>
+            </div>
+            <div class="article-item">
+                <h3>Artikel 3</h3>
+                <p>Deskripsi singkat artikel 3.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="photography">
+        <h2>Fotografi Menakjubkan</h2>
+        <p>Jelajahi koleksi foto yang luar biasa dari seluruh dunia.</p>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 National Geographic. Semua hak dilindungi.</p>
+</footer>
+
+</body>
+</html>
